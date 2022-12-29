@@ -1,0 +1,59 @@
+﻿WorkshopIG : Validation Results
+=========================================
+
+err = 4, warn = 12, info = 2
+IG Publisher Version: 1.2.25
+Generated Thu Dec 29 10:56:25 CET 2022. FHIR version 4.0.1 for nizar.myorganization#0.1.0 (canonical = http://example.org/ig/workshop)
+ Build Errors : 0 / 4 / 0
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem : 2 / 2 / 2
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\CodeSystem-no-kodeverk-7010-norpat.codesystem : 2 / 2 / 2
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\ImplementationGuide-nizar.myorganization : 0 / 0 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\NamingSystem-no-basis-her-id : 0 / 0 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\NamingSystem-no-basis-resh-id : 0 / 0 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\Patient-PatientExample : 0 / 0 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\Patient-PatientExample-2 : 0 / 0 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\Practitioner-DoctorShark : 0 / 0 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\Practitioner-Nizar : 0 / 0 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\StructureDefinition-fish-doctor : 0 / 0 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\StructureDefinition-fish-species : 0 / 0 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\StructureDefinition-my-patient : 0 / 0 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\StructureDefinition-smarting-pain : 0 / 1 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\StructureDefinition-veterinarian : 0 / 1 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\ValueSet-fish-species : 0 / 1 / 1
+ C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\ValueSet-smarting-pain : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101'): Conformance resource C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem.json - the canonical URL (http://example.org/ig/workshop/CodeSystem/no-kodeverk-1101.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101)
+INFORMATION: CodeSystem/no-kodeverk-1101.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/no-kodeverk-1101.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/no-kodeverk-1101.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem: URL Mismatch http://example.org/ig/workshop/CodeSystem/no-kodeverk-1101.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101
+== fsh-generated\resources\CodeSystem-no-kodeverk-7010-norpat.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat'): Conformance resource C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\CodeSystem-no-kodeverk-7010-norpat.codesystem.json - the canonical URL (http://example.org/ig/workshop/CodeSystem/no-kodeverk-7010-norpat.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat)
+INFORMATION: CodeSystem/no-kodeverk-7010-norpat.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/no-kodeverk-7010-norpat.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/no-kodeverk-7010-norpat.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: C:\Users\bensa\OneDrive\Bureau\Divers\ASIP\FHIR\fsh-tutorial-master\WorkshopIG-main\fsh-generated\resources\CodeSystem-no-kodeverk-7010-norpat.codesystem: URL Mismatch http://example.org/ig/workshop/CodeSystem/no-kodeverk-7010-norpat.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat
+== fsh-generated\resources\ImplementationGuide-nizar.myorganization.json ==
+== fsh-generated\resources\NamingSystem-no-basis-her-id.json ==
+== fsh-generated\resources\NamingSystem-no-basis-resh-id.json ==
+== fsh-generated\resources\Patient-PatientExample.json ==
+== fsh-generated\resources\Patient-PatientExample-2.json ==
+== fsh-generated\resources\Practitioner-DoctorShark.json ==
+== fsh-generated\resources\Practitioner-Nizar.json ==
+== fsh-generated\resources\StructureDefinition-fish-doctor.json ==
+== fsh-generated\resources\StructureDefinition-fish-species.json ==
+== fsh-generated\resources\StructureDefinition-my-patient.json ==
+== fsh-generated\resources\StructureDefinition-smarting-pain.json ==
+WARNING: StructureDefinition.where(url = 'http://example.org/ig/workshop/StructureDefinition/smarting-pain'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-veterinarian.json ==
+WARNING: StructureDefinition.where(url = 'http://example.org/ig/workshop/StructureDefinition/veterinarian'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\ValueSet-fish-species.json ==
+WARNING: ValueSet/fish-species: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-smarting-pain.json ==
+WARNING: ValueSet/smarting-pain: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile

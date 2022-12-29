@@ -1,0 +1,12 @@
+{
+  "url" : "http://example.org/ig/workshop/ImplementationGuide/nizar.myorganization",
+  "name" : "WorkshopIG",
+  "package-id" : "nizar.myorganization",
+  "ig-ver" : "0.1.0",
+  "date" : "Thu, 29 Dec, 2022 10:55:04 +0100",
+  "errs" : 4,
+  "warnings" : 12,
+  "hints" : 2,
+  "version" : "4.0.1",
+  "tool" : "5.0.0-snapshot2 (3)"
+}
