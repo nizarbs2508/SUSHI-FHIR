@@ -1,0 +1,53 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: nizar.myorganization
+canonical: http://example.org/ig/workshop
+name: WorkshopIG
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2021+
+releaseLabel: ci-build
+publisher:
+  name: My Organization
+  url: http://example.org/
+
+# ----- Set more IG configuration -----
+title: "Workshop IG (R4)"
+description: An example IG for the workshop about authoring a FSH IG
+# https://www.hl7.org/fhir/valueset-spdx-license.html
+license: CC-BY-SA-4.0
+
+# ----- Set dependencies -----
+dependencies:
+  ch.fhir.ig.ch-core: 2.0.0
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# ----- Define IG tabs (page content) -----
+menu:
+  Home: index.html
+  Use Case: 
+    English: usecase-english.html
+    Français: usecase-frensh.html
+  Profiles: profiles.html
+  Artifacts: artifacts.html
+  Extensions: extensions.html
+  Teminologies: terminologies.html
+  
+
+
+# ----- Define own titles (default: IG Publisher generates titles) -----
+pages:
+  index.md:
+    title: Home
+  usecase-english.md:
+    title: use cases
+  usecase-frensh.md:
+    title: Français
+  profiles.xml:
+  extensions.xml:
+  terminologies.xml:
