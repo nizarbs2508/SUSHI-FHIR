@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "SmartingPain",
+  "id": "smarting-pain",
+  "title": "Smarting pain",
+  "description": "Codes describing various Smarting pain, taken from SNOMED CT",
+  "version": "0.1.0",
+  "url": "http://example.org/ig/workshop/ValueSet/smarting-pain",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "103013007"
+          }
+        ]
+      }
+    ]
+  }
+}

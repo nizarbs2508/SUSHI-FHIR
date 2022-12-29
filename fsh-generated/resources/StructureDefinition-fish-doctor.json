@@ -1,0 +1,77 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "fish-doctor",
+  "url": "http://example.org/ig/workshop/StructureDefinition/fish-doctor",
+  "version": "0.1.0",
+  "name": "FishDoctor",
+  "title": "Fish Doctor",
+  "status": "active",
+  "description": "Profile of the Practitioner resource",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "CDA-CH-V2",
+      "uri": "http://e-health-wiki.ch/index.php/Ehscda:CDA-CH_2017_(specification)",
+      "name": "CDA-CH 2020 V2.1"
+    },
+    {
+      "identity": "eCH",
+      "uri": "http://www.ech.ch/",
+      "name": "eCH-Standards"
+    },
+    {
+      "identity": "EPR",
+      "uri": "https://art-decor.org/art-decor/decor-valuesets--ch-epr-",
+      "name": "EPR ValueSets"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Practitioner",
+  "baseDefinition": "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Practitioner",
+        "path": "Practitioner",
+        "short": "Fish doctor"
+      },
+      {
+        "id": "Practitioner.name",
+        "path": "Practitioner.name",
+        "min": 1
+      },
+      {
+        "id": "Practitioner.name.family",
+        "path": "Practitioner.name.family",
+        "min": 1
+      },
+      {
+        "id": "Practitioner.name.given",
+        "path": "Practitioner.name.given",
+        "min": 1
+      }
+    ]
+  }
+}

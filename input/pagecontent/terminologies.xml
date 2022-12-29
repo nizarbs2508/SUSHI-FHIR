@@ -1,0 +1,19 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
+  
+  <p>
+    Terminologies defined as part of the workshop IG
+  </p>
+
+  <!-- voir ValueSet: FishSpecies dans le fichier .fsh-->
+  <div>
+    {% include list-ValueSets.xhtml %}
+  </div>
+  <div>
+    {% include list-CodeSystems.xhtml %}
+  </div>
+  <div>
+    {% include list-NamingSystems.xhtml %}
+  </div>
+
+</div>

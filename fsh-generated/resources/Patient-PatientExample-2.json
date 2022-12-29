@@ -1,0 +1,37 @@
+{
+  "resourceType": "Patient",
+  "id": "PatientExample-2",
+  "meta": {
+    "profile": [
+      "http://example.org/ig/workshop/StructureDefinition/my-patient"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://example.org/ig/workshop/StructureDefinition/fish-species",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "740008",
+            "system": "http://snomed.info/sct",
+            "display": "Ophichthus ophis"
+          }
+        ]
+      }
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Shorty"
+      ],
+      "family": "Koi-Fish"
+    }
+  ],
+  "birthDate": "1970-05-25",
+  "generalPractitioner": [
+    {
+      "reference": "Practitioner/DoctorShark"
+    }
+  ]
+}

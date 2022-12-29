@@ -1,0 +1,204 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "nizar.myorganization",
+  "url": "http://example.org/ig/workshop/ImplementationGuide/nizar.myorganization",
+  "version": "0.1.0",
+  "name": "WorkshopIG",
+  "title": "Workshop IG (R4)",
+  "status": "draft",
+  "publisher": "My Organization",
+  "contact": [
+    {
+      "name": "My Organization",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.org/"
+        }
+      ]
+    }
+  ],
+  "description": "An example IG for the workshop about authoring a FSH IG",
+  "packageId": "nizar.myorganization",
+  "license": "CC-BY-SA-4.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "ch.fhir.ig.ch-core",
+      "version": "2.0.0",
+      "uri": "http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core",
+      "id": "ch_fhir_ig_ch_core"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/fish-doctor"
+        },
+        "name": "Fish Doctor",
+        "description": "Profile of the Practitioner resource",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/my-patient"
+        },
+        "name": "My Patient",
+        "description": "Profile of the Patient resource",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/veterinarian"
+        },
+        "name": "Veterinarian",
+        "description": "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/fish-species"
+        },
+        "name": "Fish Species",
+        "description": "Extension to specify the species of the fish",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/smarting-pain"
+        },
+        "name": "Smarting pain",
+        "description": "Extension to specify the smarting pain",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/fish-species"
+        },
+        "name": "Fish Species",
+        "description": "Codes describing various species of fish, taken from SNOMED CT",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/smarting-pain"
+        },
+        "name": "Smarting pain",
+        "description": "Codes describing various Smarting pain, taken from SNOMED CT",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/no-kodeverk-1101.codesystem"
+        },
+        "name": "1101 Ja, nei",
+        "description": "Dette kodeverket inneholder koder for å angi svar Ja eller Nei.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/no-kodeverk-7010-norpat.codesystem"
+        },
+        "name": "Norsk patologikodeverk (NORPAT)",
+        "description": "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/DoctorShark"
+        },
+        "name": "Doctor Shark",
+        "description": "Example of a practitioner specialising as a fish doctor",
+        "exampleCanonical": "http://example.org/ig/workshop/StructureDefinition/fish-doctor"
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Nizar"
+        },
+        "name": "Doctor Nizar",
+        "description": "Seconde example of a practitioner specialising as a fish doctor",
+        "exampleCanonical": "http://example.org/ig/workshop/StructureDefinition/fish-doctor"
+      },
+      {
+        "reference": {
+          "reference": "Patient/PatientExample"
+        },
+        "name": "James Pond",
+        "description": "Example of a patient with a license to krill",
+        "exampleCanonical": "http://example.org/ig/workshop/StructureDefinition/my-patient"
+      },
+      {
+        "reference": {
+          "reference": "Patient/PatientExample-2"
+        },
+        "name": "Shorty Koi-Fish",
+        "description": "Seconde example of a patient with a license to krill",
+        "exampleCanonical": "http://example.org/ig/workshop/StructureDefinition/my-patient"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/no-basis-her-id"
+        },
+        "name": "no-basis-her-id",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/no-basis-resh-id"
+        },
+        "name": "no-basis-resh-id",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "usecase-english.html",
+          "title": "use cases",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "usecase-frensh.html",
+          "title": "Français",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles.html",
+          "title": "Profiles",
+          "generation": "html"
+        },
+        {
+          "nameUrl": "extensions.html",
+          "title": "Extensions",
+          "generation": "html"
+        },
+        {
+          "nameUrl": "terminologies.html",
+          "title": "Terminologies",
+          "generation": "html"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2021+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Nizar",
+  "meta": {
+    "profile": [
+      "http://example.org/ig/workshop/StructureDefinition/fish-doctor"
+    ]
+  },
+  "name": [
+    {
+      "given": [
+        "Nizar"
+      ],
+      "family": "Ben Salem"
+    }
+  ]
+}

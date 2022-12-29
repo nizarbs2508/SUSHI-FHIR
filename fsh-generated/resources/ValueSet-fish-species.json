@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "FishSpecies",
+  "id": "fish-species",
+  "title": "Fish Species",
+  "description": "Codes describing various species of fish, taken from SNOMED CT",
+  "version": "0.1.0",
+  "url": "http://example.org/ig/workshop/ValueSet/fish-species",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "90580008"
+          }
+        ]
+      }
+    ]
+  }
+}
