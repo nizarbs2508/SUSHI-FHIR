@@ -1,0 +1,11 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  
+  <ns0:p xmlns:ns0="http://www.w3.org/1999/xhtml">
+    Profiles defined as part of the workshop IG
+  </ns0:p>
+
+  <ns1:div xmlns:ns1="http://www.w3.org/1999/xhtml">
+    {% include list-profiles.xhtml %}
+  </ns1:div>
+
+</div>
