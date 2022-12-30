@@ -1,0 +1,18 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-fish-doctor-inv</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<h4>Constraints</h4>
+<table class="list">
+<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
+<tr><td>ch-core-hm-1</td><td>error</td><td>Practitioner.name</td><td>if officalName with eCH-011 Extension is specified, it can only be put on a name where use attribute is official<br/>: family.extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name' and valueCode='officialName').empty() or (family.extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name' and valueCode='officialName').exists() and use='official')</td><td></td></tr>
+<tr><td>ch-core-hm-2</td><td>error</td><td>Practitioner.name</td><td>if orginalName with eCH-011 Extension is specified, it can only be put on a name where use attribute is maiden<br/>: family.extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name' and valueCode='originalName').empty() or ((family.extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name' and valueCode='originalName').exists() and use='maiden'))</td><td></td></tr>
+<tr><td>ch-core-hm-3</td><td>error</td><td>Practitioner.name</td><td>ch-ext-ech-11-name can only be put on a family name<br/>: descendants().extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name').count()=family.extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name').count()</td><td></td></tr>
+<tr><td>ch-core-hm-4</td><td>error</td><td>Practitioner.name</td><td>ch-ext-ech-11-firstname can only be put on a given name<br/>: descendants().extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-firstname').count()=given.extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-firstname').count()</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>**ALL** elements</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ext-1</td><td>error</td><td>**ALL** extensions</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+</table>
+</body>
+</html>

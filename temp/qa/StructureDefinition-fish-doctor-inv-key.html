@@ -1,0 +1,25 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-fish-doctor-inv-key</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<h4>Constraints</h4>
+<table class="list">
+<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
+<tr><td>ch-core-hm-1</td><td>error</td><td>Practitioner.name</td><td>if officalName with eCH-011 Extension is specified, it can only be put on a name where use attribute is official<br/>: family.extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name' and valueCode='officialName').empty() or (family.extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name' and valueCode='officialName').exists() and use='official')</td><td></td></tr>
+<tr><td>ch-core-hm-2</td><td>error</td><td>Practitioner.name</td><td>if orginalName with eCH-011 Extension is specified, it can only be put on a name where use attribute is maiden<br/>: family.extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name' and valueCode='originalName').empty() or ((family.extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name' and valueCode='originalName').exists() and use='maiden'))</td><td></td></tr>
+<tr><td>ch-core-hm-3</td><td>error</td><td>Practitioner.name</td><td>ch-ext-ech-11-name can only be put on a family name<br/>: descendants().extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name').count()=family.extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name').count()</td><td></td></tr>
+<tr><td>ch-core-hm-4</td><td>error</td><td>Practitioner.name</td><td>ch-ext-ech-11-firstname can only be put on a given name<br/>: descendants().extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-firstname').count()=given.extension.where(url='http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-firstname').count()</td><td></td></tr>
+<tr><td>ch-pract-1</td><td>error</td><td>Practitioner</td><td>At least one HumanName with given and family name must be provided.<br/>: name.where(family.exists() and given.exists()).count()&gt;0 or name.empty()</td><td></td></tr>
+<tr><td>ch-pract-2</td><td>warning</td><td>Practitioner</td><td>gender unknown is currently not used in Switzerland in eCH and the EPR<br/>: gender.empty() or gender!='unknown'</td><td></td></tr>
+<tr><td>dom-2</td><td>error</td><td>Practitioner</td><td>If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>: contained.contained.empty()</td><td></td></tr>
+<tr><td>dom-3</td><td>error</td><td>Practitioner</td><td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource<br/>: contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</td><td></td></tr>
+<tr><td>dom-4</td><td>error</td><td>Practitioner</td><td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>: contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</td><td></td></tr>
+<tr><td>dom-5</td><td>error</td><td>Practitioner</td><td>If a resource is contained in another resource, it SHALL NOT have a security label<br/>: contained.meta.security.empty()</td><td></td></tr>
+<tr><td>dom-6</td><td>best practice</td><td>Practitioner</td><td>A resource should have narrative for robust management<br/>: text.`div`.exists()</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>**ALL** elements</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ext-1</td><td>error</td><td>**ALL** extensions</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+</table>
+</body>
+</html>
