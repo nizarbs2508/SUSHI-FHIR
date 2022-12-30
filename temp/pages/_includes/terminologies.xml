@@ -1,0 +1,18 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  
+  <ns0:p xmlns:ns0="http://www.w3.org/1999/xhtml">
+    Terminologies defined as part of the workshop IG
+  </ns0:p>
+
+  <!-- voir ValueSet: FishSpecies dans le fichier .fsh-->
+  <ns1:div xmlns:ns1="http://www.w3.org/1999/xhtml">
+    {% include list-ValueSets.xhtml %}
+  </ns1:div>
+  <ns2:div xmlns:ns2="http://www.w3.org/1999/xhtml">
+    {% include list-CodeSystems.xhtml %}
+  </ns2:div>
+  <ns3:div xmlns:ns3="http://www.w3.org/1999/xhtml">
+    {% include list-NamingSystems.xhtml %}
+  </ns3:div>
+
+</div>
