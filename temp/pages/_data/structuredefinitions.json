@@ -1,0 +1,109 @@
+{
+  "fish-doctor" : {
+    "index" : 0,
+    "url" : "http://example.org/ig/workshop/StructureDefinition/fish-doctor",
+    "name" : "FishDoctor",
+    "title" : "Fish Doctor",
+    "path" : "StructureDefinition-fish-doctor.html",
+    "kind" : "resource",
+    "type" : "Practitioner",
+    "base" : "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner",
+    "basename" : "CHCorePractitioner",
+    "basepath" : "http://fhir.ch/ig/ch-core/StructureDefinition-ch-core-practitioner.html",
+    "status" : "active",
+    "date" : "Thu Dec 29 10:55:04 CET 2022",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "My Organization",
+    "copyright" : "",
+    "description" : "Profile of the Practitioner resource"
+  },
+  "fish-species" : {
+    "index" : 1,
+    "url" : "http://example.org/ig/workshop/StructureDefinition/fish-species",
+    "name" : "FishSpecies",
+    "title" : "Fish Species",
+    "path" : "StructureDefinition-fish-species.html",
+    "kind" : "complex-type",
+    "type" : "Extension",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename" : "Extension",
+    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status" : "active",
+    "date" : "Thu Dec 29 10:55:04 CET 2022",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "My Organization",
+    "copyright" : "",
+    "description" : "Extension to specify the species of the fish",
+    "contexts" : [
+      {
+        "type" : "Element ID",
+        "expression" : "Element"
+      }
+    ]
+  },
+  "my-patient" : {
+    "index" : 2,
+    "url" : "http://example.org/ig/workshop/StructureDefinition/my-patient",
+    "name" : "MyPatient",
+    "title" : "My Patient",
+    "path" : "StructureDefinition-my-patient.html",
+    "kind" : "resource",
+    "type" : "Patient",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Patient",
+    "basename" : "Patient",
+    "basepath" : "http://hl7.org/fhir/R4/patient.html",
+    "status" : "active",
+    "date" : "Thu Dec 29 10:55:04 CET 2022",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "My Organization",
+    "copyright" : "",
+    "description" : "Profile of the Patient resource"
+  },
+  "smarting-pain" : {
+    "index" : 3,
+    "url" : "http://example.org/ig/workshop/StructureDefinition/smarting-pain",
+    "name" : "SmartingPain",
+    "title" : "Smarting pain",
+    "path" : "StructureDefinition-smarting-pain.html",
+    "kind" : "complex-type",
+    "type" : "Extension",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename" : "Extension",
+    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status" : "active",
+    "date" : "Thu Dec 29 10:55:04 CET 2022",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "My Organization",
+    "copyright" : "",
+    "description" : "Extension to specify the smarting pain",
+    "contexts" : [
+      {
+        "type" : "Element ID",
+        "expression" : "Element"
+      }
+    ]
+  },
+  "veterinarian" : {
+    "index" : 4,
+    "url" : "http://example.org/ig/workshop/StructureDefinition/veterinarian",
+    "name" : "Veterinarian",
+    "title" : "Veterinarian",
+    "path" : "StructureDefinition-veterinarian.html",
+    "kind" : "resource",
+    "type" : "Practitioner",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Practitioner",
+    "basename" : "Practitioner",
+    "basepath" : "http://hl7.org/fhir/R4/practitioner.html",
+    "status" : "active",
+    "date" : "Thu Dec 29 10:55:04 CET 2022",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "My Organization",
+    "copyright" : "",
+    "description" : "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers."
+  }
+}

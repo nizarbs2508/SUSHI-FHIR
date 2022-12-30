@@ -1,0 +1,56 @@
+{
+  "path" : "http://hl7.org/fhir/R4/",
+  "canonical" : "http://example.org/ig/workshop",
+  "igId" : "nizar.myorganization",
+  "igName" : "WorkshopIG",
+  "packageId" : "nizar.myorganization",
+  "igVer" : "0.1.0",
+  "errorCount" : 2,
+  "version" : "4.0.1",
+  "revision" : "a53ec6ee1b",
+  "versionFull" : "4.0.1-a53ec6ee1b",
+  "toolingVersion" : "5.0.0-snapshot2",
+  "toolingRevision" : "3",
+  "toolingVersionFull" : "5.0.0-snapshot2 (3)",
+  "totalFiles" : 16,
+  "processedFiles" : 35,
+  "genDate" : "Thu, Dec 29, 2022 10:55+0100",
+  "genDay" : "29/12/2022",
+  "ig" : {
+    "id" : "nizar.myorganization",
+    "name" : "WorkshopIG",
+    "title" : "Workshop IG (R4)",
+    "url" : "http://example.org/ig/workshop/ImplementationGuide/nizar.myorganization",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "experimental" : false,
+    "publisher" : "My Organization",
+    "gitstatus" : "",
+    "contact" : [
+      {
+        "name" : "My Organization",
+        "telecom" : ["http://example.org/"]
+      }
+    ],
+    "date" : "2022-12-29T10:55:04+01:00",
+    "description" : "An example IG for the workshop about authoring a FSH IG",
+    "copyright" : "",
+    "fhirVersion" : "4.0.1"
+  },
+  "basespec" : "http://hl7.org/fhir/R4",
+  "ver" : {
+    "basespec" : "",
+    "hl7tx" : "http://terminology.hl7.org/5.0.0",
+    "ch_fhir_ig_ch_core" : "http://fhir.ch/ig/ch-core",
+    "ch.fhir.ig.ch-epr-term_2.0.7" : "http://fhir.ch/ig/ch-epr-term",
+    "ihe.formatcode.fhir_1.0.0" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.0.0",
+    "igtools" : "https://build.fhir.org/ig/FHIR/fhir-tools-ig/",
+    "hl7.fhir.r5.core" : "http://build.fhir.org/"
+  },
+  "hl7tx" : "http://terminology.hl7.org",
+  "ch_fhir_ig_ch_core" : "http://fhir.ch/ig/ch-core",
+  "ch.fhir.ig.ch-epr-term_2.0.7" : "http://fhir.ch/ig/ch-epr-term",
+  "ihe.formatcode.fhir_1.0.0" : "http://profiles.ihe.net/fhir/ihe.formatcode.fhir",
+  "igtools" : "http://hl7.org/fhir/tools",
+  "hl7.fhir.r5.core" : "http://build.fhir.org"
+}

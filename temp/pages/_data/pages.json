@@ -1,0 +1,685 @@
+{
+  "toc.html" : {
+    "title" : "Table of Contents",
+    "label" : "0.0",
+    "breadcrumb" : "<li><b>Table of Contents</b></li>",
+    "next" : "index.html"
+  },
+  "index.html" : {
+    "title" : "Home",
+    "label" : "1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>",
+    "previous" : "toc.html",
+    "next" : "usecase-english.html"
+  },
+  "usecase-english.html" : {
+    "title" : "use cases",
+    "label" : "2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>use cases</b></li>",
+    "previous" : "index.html",
+    "next" : "usecase-frensh.html"
+  },
+  "usecase-frensh.html" : {
+    "title" : "Français",
+    "label" : "3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Français</b></li>",
+    "previous" : "usecase-english.html",
+    "next" : "profiles.html"
+  },
+  "profiles.html" : {
+    "title" : "Profiles",
+    "label" : "4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Profiles</b></li>",
+    "previous" : "usecase-frensh.html",
+    "next" : "extensions.html"
+  },
+  "extensions.html" : {
+    "title" : "Extensions",
+    "label" : "5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Extensions</b></li>",
+    "previous" : "profiles.html",
+    "next" : "terminologies.html"
+  },
+  "terminologies.html" : {
+    "title" : "Terminologies",
+    "label" : "6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Terminologies</b></li>",
+    "previous" : "extensions.html",
+    "next" : "artifacts.html"
+  },
+  "artifacts.html" : {
+    "title" : "Artifacts Summary",
+    "label" : "7.0",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>",
+    "previous" : "terminologies.html",
+    "next" : "StructureDefinition-fish-doctor.html"
+  },
+  "StructureDefinition-fish-doctor.html" : {
+    "title" : "Fish Doctor",
+    "label" : "7.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Doctor</b></li>",
+    "examples" : [
+      {
+        "url" : "Practitioner-DoctorShark.html",
+        "title" : "Doctor Shark"
+      },
+      {
+        "url" : "Practitioner-Nizar.html",
+        "title" : "Doctor Nizar"
+      }
+    ],
+    "testscripts" : [],
+    "previous" : "artifacts.html",
+    "next" : "StructureDefinition-fish-doctor-definitions.html"
+  },
+  "StructureDefinition-fish-doctor-definitions.html" : {
+    "title" : "Fish Doctor - Definitions",
+    "label" : "7.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Doctor</b></li>",
+    "previous" : "StructureDefinition-fish-doctor.html",
+    "next" : "StructureDefinition-fish-doctor-mappings.html"
+  },
+  "StructureDefinition-fish-doctor-mappings.html" : {
+    "title" : "Fish Doctor - Mappings",
+    "label" : "7.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Doctor</b></li>",
+    "previous" : "StructureDefinition-fish-doctor-definitions.html",
+    "next" : "StructureDefinition-fish-doctor-testing.html"
+  },
+  "StructureDefinition-fish-doctor-testing.html" : {
+    "title" : "Fish Doctor - Testing",
+    "label" : "7.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Doctor</b></li>",
+    "previous" : "StructureDefinition-fish-doctor-mappings.html",
+    "next" : "StructureDefinition-fish-doctor-examples.html"
+  },
+  "StructureDefinition-fish-doctor-examples.html" : {
+    "title" : "Fish Doctor - Examples",
+    "label" : "7.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Doctor</b></li>",
+    "previous" : "StructureDefinition-fish-doctor-testing.html",
+    "next" : "StructureDefinition-fish-doctor.profile.xml.html"
+  },
+  "StructureDefinition-fish-doctor.profile.xml.html" : {
+    "title" : "Fish Doctor - XML Representation",
+    "label" : "7.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Doctor</b></li>",
+    "previous" : "StructureDefinition-fish-doctor-examples.html",
+    "next" : "StructureDefinition-fish-doctor.profile.json.html"
+  },
+  "StructureDefinition-fish-doctor.profile.json.html" : {
+    "title" : "Fish Doctor - JSON Representation",
+    "label" : "7.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Doctor</b></li>",
+    "previous" : "StructureDefinition-fish-doctor.profile.xml.html",
+    "next" : "StructureDefinition-fish-doctor.profile.ttl.html"
+  },
+  "StructureDefinition-fish-doctor.profile.ttl.html" : {
+    "title" : "Fish Doctor - TTL Representation",
+    "label" : "7.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Doctor</b></li>",
+    "previous" : "StructureDefinition-fish-doctor.profile.json.html",
+    "next" : "StructureDefinition-my-patient.html"
+  },
+  "StructureDefinition-my-patient.html" : {
+    "title" : "My Patient",
+    "label" : "7.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>My Patient</b></li>",
+    "examples" : [
+      {
+        "url" : "Patient-PatientExample-2.html",
+        "title" : "Shorty Koi-Fish"
+      },
+      {
+        "url" : "Patient-PatientExample.html",
+        "title" : "James Pond"
+      }
+    ],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-fish-doctor.profile.ttl.html",
+    "next" : "StructureDefinition-my-patient-definitions.html"
+  },
+  "StructureDefinition-my-patient-definitions.html" : {
+    "title" : "My Patient - Definitions",
+    "label" : "7.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>My Patient</b></li>",
+    "previous" : "StructureDefinition-my-patient.html",
+    "next" : "StructureDefinition-my-patient-mappings.html"
+  },
+  "StructureDefinition-my-patient-mappings.html" : {
+    "title" : "My Patient - Mappings",
+    "label" : "7.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>My Patient</b></li>",
+    "previous" : "StructureDefinition-my-patient-definitions.html",
+    "next" : "StructureDefinition-my-patient-testing.html"
+  },
+  "StructureDefinition-my-patient-testing.html" : {
+    "title" : "My Patient - Testing",
+    "label" : "7.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>My Patient</b></li>",
+    "previous" : "StructureDefinition-my-patient-mappings.html",
+    "next" : "StructureDefinition-my-patient-examples.html"
+  },
+  "StructureDefinition-my-patient-examples.html" : {
+    "title" : "My Patient - Examples",
+    "label" : "7.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>My Patient</b></li>",
+    "previous" : "StructureDefinition-my-patient-testing.html",
+    "next" : "StructureDefinition-my-patient.profile.xml.html"
+  },
+  "StructureDefinition-my-patient.profile.xml.html" : {
+    "title" : "My Patient - XML Representation",
+    "label" : "7.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>My Patient</b></li>",
+    "previous" : "StructureDefinition-my-patient-examples.html",
+    "next" : "StructureDefinition-my-patient.profile.json.html"
+  },
+  "StructureDefinition-my-patient.profile.json.html" : {
+    "title" : "My Patient - JSON Representation",
+    "label" : "7.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>My Patient</b></li>",
+    "previous" : "StructureDefinition-my-patient.profile.xml.html",
+    "next" : "StructureDefinition-my-patient.profile.ttl.html"
+  },
+  "StructureDefinition-my-patient.profile.ttl.html" : {
+    "title" : "My Patient - TTL Representation",
+    "label" : "7.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>My Patient</b></li>",
+    "previous" : "StructureDefinition-my-patient.profile.json.html",
+    "next" : "StructureDefinition-veterinarian.html"
+  },
+  "StructureDefinition-veterinarian.html" : {
+    "title" : "Veterinarian",
+    "label" : "7.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-my-patient.profile.ttl.html",
+    "next" : "StructureDefinition-veterinarian-definitions.html"
+  },
+  "StructureDefinition-veterinarian-definitions.html" : {
+    "title" : "Veterinarian - Definitions",
+    "label" : "7.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
+    "previous" : "StructureDefinition-veterinarian.html",
+    "next" : "StructureDefinition-veterinarian-mappings.html"
+  },
+  "StructureDefinition-veterinarian-mappings.html" : {
+    "title" : "Veterinarian - Mappings",
+    "label" : "7.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
+    "previous" : "StructureDefinition-veterinarian-definitions.html",
+    "next" : "StructureDefinition-veterinarian-testing.html"
+  },
+  "StructureDefinition-veterinarian-testing.html" : {
+    "title" : "Veterinarian - Testing",
+    "label" : "7.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
+    "previous" : "StructureDefinition-veterinarian-mappings.html",
+    "next" : "StructureDefinition-veterinarian.profile.xml.html"
+  },
+  "StructureDefinition-veterinarian.profile.xml.html" : {
+    "title" : "Veterinarian - XML Representation",
+    "label" : "7.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
+    "previous" : "StructureDefinition-veterinarian-testing.html",
+    "next" : "StructureDefinition-veterinarian.profile.json.html"
+  },
+  "StructureDefinition-veterinarian.profile.json.html" : {
+    "title" : "Veterinarian - JSON Representation",
+    "label" : "7.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
+    "previous" : "StructureDefinition-veterinarian.profile.xml.html",
+    "next" : "StructureDefinition-veterinarian.profile.ttl.html"
+  },
+  "StructureDefinition-veterinarian.profile.ttl.html" : {
+    "title" : "Veterinarian - TTL Representation",
+    "label" : "7.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Veterinarian</b></li>",
+    "previous" : "StructureDefinition-veterinarian.profile.json.html",
+    "next" : "StructureDefinition-fish-species.html"
+  },
+  "StructureDefinition-fish-species.html" : {
+    "title" : "Fish Species",
+    "label" : "7.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-veterinarian.profile.ttl.html",
+    "next" : "StructureDefinition-fish-species-definitions.html"
+  },
+  "StructureDefinition-fish-species-definitions.html" : {
+    "title" : "Fish Species - Definitions",
+    "label" : "7.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "previous" : "StructureDefinition-fish-species.html",
+    "next" : "StructureDefinition-fish-species-mappings.html"
+  },
+  "StructureDefinition-fish-species-mappings.html" : {
+    "title" : "Fish Species - Mappings",
+    "label" : "7.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "previous" : "StructureDefinition-fish-species-definitions.html",
+    "next" : "StructureDefinition-fish-species-testing.html"
+  },
+  "StructureDefinition-fish-species-testing.html" : {
+    "title" : "Fish Species - Testing",
+    "label" : "7.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "previous" : "StructureDefinition-fish-species-mappings.html",
+    "next" : "StructureDefinition-fish-species.profile.xml.html"
+  },
+  "StructureDefinition-fish-species.profile.xml.html" : {
+    "title" : "Fish Species - XML Representation",
+    "label" : "7.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "previous" : "StructureDefinition-fish-species-testing.html",
+    "next" : "StructureDefinition-fish-species.profile.json.html"
+  },
+  "StructureDefinition-fish-species.profile.json.html" : {
+    "title" : "Fish Species - JSON Representation",
+    "label" : "7.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "previous" : "StructureDefinition-fish-species.profile.xml.html",
+    "next" : "StructureDefinition-fish-species.profile.ttl.html"
+  },
+  "StructureDefinition-fish-species.profile.ttl.html" : {
+    "title" : "Fish Species - TTL Representation",
+    "label" : "7.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "previous" : "StructureDefinition-fish-species.profile.json.html",
+    "next" : "StructureDefinition-smarting-pain.html"
+  },
+  "StructureDefinition-smarting-pain.html" : {
+    "title" : "Smarting pain",
+    "label" : "7.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Smarting pain</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-fish-species.profile.ttl.html",
+    "next" : "StructureDefinition-smarting-pain-definitions.html"
+  },
+  "StructureDefinition-smarting-pain-definitions.html" : {
+    "title" : "Smarting pain - Definitions",
+    "label" : "7.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Smarting pain</b></li>",
+    "previous" : "StructureDefinition-smarting-pain.html",
+    "next" : "StructureDefinition-smarting-pain-mappings.html"
+  },
+  "StructureDefinition-smarting-pain-mappings.html" : {
+    "title" : "Smarting pain - Mappings",
+    "label" : "7.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Smarting pain</b></li>",
+    "previous" : "StructureDefinition-smarting-pain-definitions.html",
+    "next" : "StructureDefinition-smarting-pain-testing.html"
+  },
+  "StructureDefinition-smarting-pain-testing.html" : {
+    "title" : "Smarting pain - Testing",
+    "label" : "7.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Smarting pain</b></li>",
+    "previous" : "StructureDefinition-smarting-pain-mappings.html",
+    "next" : "StructureDefinition-smarting-pain.profile.xml.html"
+  },
+  "StructureDefinition-smarting-pain.profile.xml.html" : {
+    "title" : "Smarting pain - XML Representation",
+    "label" : "7.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Smarting pain</b></li>",
+    "previous" : "StructureDefinition-smarting-pain-testing.html",
+    "next" : "StructureDefinition-smarting-pain.profile.json.html"
+  },
+  "StructureDefinition-smarting-pain.profile.json.html" : {
+    "title" : "Smarting pain - JSON Representation",
+    "label" : "7.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Smarting pain</b></li>",
+    "previous" : "StructureDefinition-smarting-pain.profile.xml.html",
+    "next" : "StructureDefinition-smarting-pain.profile.ttl.html"
+  },
+  "StructureDefinition-smarting-pain.profile.ttl.html" : {
+    "title" : "Smarting pain - TTL Representation",
+    "label" : "7.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Smarting pain</b></li>",
+    "previous" : "StructureDefinition-smarting-pain.profile.json.html",
+    "next" : "ValueSet-fish-species.html"
+  },
+  "ValueSet-fish-species.html" : {
+    "title" : "Fish Species",
+    "label" : "7.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-smarting-pain.profile.ttl.html",
+    "next" : "ValueSet-fish-species-testing.html"
+  },
+  "ValueSet-fish-species-testing.html" : {
+    "title" : "Fish Species - Testing",
+    "label" : "7.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "previous" : "ValueSet-fish-species.html",
+    "next" : "ValueSet-fish-species.xml.html"
+  },
+  "ValueSet-fish-species.xml.html" : {
+    "title" : "Fish Species - XML Representation",
+    "label" : "7.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "previous" : "ValueSet-fish-species-testing.html",
+    "next" : "ValueSet-fish-species.json.html"
+  },
+  "ValueSet-fish-species.json.html" : {
+    "title" : "Fish Species - JSON Representation",
+    "label" : "7.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "previous" : "ValueSet-fish-species.xml.html",
+    "next" : "ValueSet-fish-species.ttl.html"
+  },
+  "ValueSet-fish-species.ttl.html" : {
+    "title" : "Fish Species - TTL Representation",
+    "label" : "7.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Fish Species</b></li>",
+    "previous" : "ValueSet-fish-species.json.html",
+    "next" : "ValueSet-smarting-pain.html"
+  },
+  "ValueSet-smarting-pain.html" : {
+    "title" : "Smarting pain",
+    "label" : "7.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Smarting pain</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-fish-species.ttl.html",
+    "next" : "ValueSet-smarting-pain-testing.html"
+  },
+  "ValueSet-smarting-pain-testing.html" : {
+    "title" : "Smarting pain - Testing",
+    "label" : "7.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Smarting pain</b></li>",
+    "previous" : "ValueSet-smarting-pain.html",
+    "next" : "ValueSet-smarting-pain.xml.html"
+  },
+  "ValueSet-smarting-pain.xml.html" : {
+    "title" : "Smarting pain - XML Representation",
+    "label" : "7.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Smarting pain</b></li>",
+    "previous" : "ValueSet-smarting-pain-testing.html",
+    "next" : "ValueSet-smarting-pain.json.html"
+  },
+  "ValueSet-smarting-pain.json.html" : {
+    "title" : "Smarting pain - JSON Representation",
+    "label" : "7.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Smarting pain</b></li>",
+    "previous" : "ValueSet-smarting-pain.xml.html",
+    "next" : "ValueSet-smarting-pain.ttl.html"
+  },
+  "ValueSet-smarting-pain.ttl.html" : {
+    "title" : "Smarting pain - TTL Representation",
+    "label" : "7.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Smarting pain</b></li>",
+    "previous" : "ValueSet-smarting-pain.json.html",
+    "next" : "CodeSystem-no-kodeverk-1101.codesystem.html"
+  },
+  "CodeSystem-no-kodeverk-1101.codesystem.html" : {
+    "title" : "1101 Ja, nei",
+    "label" : "7.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>1101 Ja, nei</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-smarting-pain.ttl.html",
+    "next" : "CodeSystem-no-kodeverk-1101.codesystem-testing.html"
+  },
+  "CodeSystem-no-kodeverk-1101.codesystem-testing.html" : {
+    "title" : "1101 Ja, nei - Testing",
+    "label" : "7.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>1101 Ja, nei</b></li>",
+    "previous" : "CodeSystem-no-kodeverk-1101.codesystem.html",
+    "next" : "CodeSystem-no-kodeverk-1101.codesystem.xml.html"
+  },
+  "CodeSystem-no-kodeverk-1101.codesystem.xml.html" : {
+    "title" : "1101 Ja, nei - XML Representation",
+    "label" : "7.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>1101 Ja, nei</b></li>",
+    "previous" : "CodeSystem-no-kodeverk-1101.codesystem-testing.html",
+    "next" : "CodeSystem-no-kodeverk-1101.codesystem.json.html"
+  },
+  "CodeSystem-no-kodeverk-1101.codesystem.json.html" : {
+    "title" : "1101 Ja, nei - JSON Representation",
+    "label" : "7.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>1101 Ja, nei</b></li>",
+    "previous" : "CodeSystem-no-kodeverk-1101.codesystem.xml.html",
+    "next" : "CodeSystem-no-kodeverk-1101.codesystem.ttl.html"
+  },
+  "CodeSystem-no-kodeverk-1101.codesystem.ttl.html" : {
+    "title" : "1101 Ja, nei - TTL Representation",
+    "label" : "7.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>1101 Ja, nei</b></li>",
+    "previous" : "CodeSystem-no-kodeverk-1101.codesystem.json.html",
+    "next" : "CodeSystem-no-kodeverk-7010-norpat.codesystem.html"
+  },
+  "CodeSystem-no-kodeverk-7010-norpat.codesystem.html" : {
+    "title" : "Norsk patologikodeverk (NORPAT)",
+    "label" : "7.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Norsk patologikodeverk (NORPAT)</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-no-kodeverk-1101.codesystem.ttl.html",
+    "next" : "CodeSystem-no-kodeverk-7010-norpat.codesystem-testing.html"
+  },
+  "CodeSystem-no-kodeverk-7010-norpat.codesystem-testing.html" : {
+    "title" : "Norsk patologikodeverk (NORPAT) - Testing",
+    "label" : "7.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Norsk patologikodeverk (NORPAT)</b></li>",
+    "previous" : "CodeSystem-no-kodeverk-7010-norpat.codesystem.html",
+    "next" : "CodeSystem-no-kodeverk-7010-norpat.codesystem.xml.html"
+  },
+  "CodeSystem-no-kodeverk-7010-norpat.codesystem.xml.html" : {
+    "title" : "Norsk patologikodeverk (NORPAT) - XML Representation",
+    "label" : "7.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Norsk patologikodeverk (NORPAT)</b></li>",
+    "previous" : "CodeSystem-no-kodeverk-7010-norpat.codesystem-testing.html",
+    "next" : "CodeSystem-no-kodeverk-7010-norpat.codesystem.json.html"
+  },
+  "CodeSystem-no-kodeverk-7010-norpat.codesystem.json.html" : {
+    "title" : "Norsk patologikodeverk (NORPAT) - JSON Representation",
+    "label" : "7.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Norsk patologikodeverk (NORPAT)</b></li>",
+    "previous" : "CodeSystem-no-kodeverk-7010-norpat.codesystem.xml.html",
+    "next" : "CodeSystem-no-kodeverk-7010-norpat.codesystem.ttl.html"
+  },
+  "CodeSystem-no-kodeverk-7010-norpat.codesystem.ttl.html" : {
+    "title" : "Norsk patologikodeverk (NORPAT) - TTL Representation",
+    "label" : "7.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Norsk patologikodeverk (NORPAT)</b></li>",
+    "previous" : "CodeSystem-no-kodeverk-7010-norpat.codesystem.json.html",
+    "next" : "NamingSystem-no-basis-her-id.html"
+  },
+  "NamingSystem-no-basis-her-id.html" : {
+    "title" : "no-basis-her-id",
+    "label" : "7.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>no-basis-her-id</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-no-kodeverk-7010-norpat.codesystem.ttl.html",
+    "next" : "NamingSystem-no-basis-her-id-testing.html"
+  },
+  "NamingSystem-no-basis-her-id-testing.html" : {
+    "title" : "no-basis-her-id - Testing",
+    "label" : "7.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>no-basis-her-id</b></li>",
+    "previous" : "NamingSystem-no-basis-her-id.html",
+    "next" : "NamingSystem-no-basis-her-id.xml.html"
+  },
+  "NamingSystem-no-basis-her-id.xml.html" : {
+    "title" : "no-basis-her-id - XML Representation",
+    "label" : "7.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>no-basis-her-id</b></li>",
+    "previous" : "NamingSystem-no-basis-her-id-testing.html",
+    "next" : "NamingSystem-no-basis-her-id.json.html"
+  },
+  "NamingSystem-no-basis-her-id.json.html" : {
+    "title" : "no-basis-her-id - JSON Representation",
+    "label" : "7.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>no-basis-her-id</b></li>",
+    "previous" : "NamingSystem-no-basis-her-id.xml.html",
+    "next" : "NamingSystem-no-basis-her-id.ttl.html"
+  },
+  "NamingSystem-no-basis-her-id.ttl.html" : {
+    "title" : "no-basis-her-id - TTL Representation",
+    "label" : "7.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>no-basis-her-id</b></li>",
+    "previous" : "NamingSystem-no-basis-her-id.json.html",
+    "next" : "NamingSystem-no-basis-resh-id.html"
+  },
+  "NamingSystem-no-basis-resh-id.html" : {
+    "title" : "no-basis-resh-id",
+    "label" : "7.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>no-basis-resh-id</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "NamingSystem-no-basis-her-id.ttl.html",
+    "next" : "NamingSystem-no-basis-resh-id-testing.html"
+  },
+  "NamingSystem-no-basis-resh-id-testing.html" : {
+    "title" : "no-basis-resh-id - Testing",
+    "label" : "7.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>no-basis-resh-id</b></li>",
+    "previous" : "NamingSystem-no-basis-resh-id.html",
+    "next" : "NamingSystem-no-basis-resh-id.xml.html"
+  },
+  "NamingSystem-no-basis-resh-id.xml.html" : {
+    "title" : "no-basis-resh-id - XML Representation",
+    "label" : "7.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>no-basis-resh-id</b></li>",
+    "previous" : "NamingSystem-no-basis-resh-id-testing.html",
+    "next" : "NamingSystem-no-basis-resh-id.json.html"
+  },
+  "NamingSystem-no-basis-resh-id.json.html" : {
+    "title" : "no-basis-resh-id - JSON Representation",
+    "label" : "7.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>no-basis-resh-id</b></li>",
+    "previous" : "NamingSystem-no-basis-resh-id.xml.html",
+    "next" : "NamingSystem-no-basis-resh-id.ttl.html"
+  },
+  "NamingSystem-no-basis-resh-id.ttl.html" : {
+    "title" : "no-basis-resh-id - TTL Representation",
+    "label" : "7.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>no-basis-resh-id</b></li>",
+    "previous" : "NamingSystem-no-basis-resh-id.json.html",
+    "next" : "Practitioner-DoctorShark.html"
+  },
+  "Practitioner-DoctorShark.html" : {
+    "title" : "Doctor Shark",
+    "label" : "7.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Doctor Shark</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "NamingSystem-no-basis-resh-id.ttl.html",
+    "next" : "Practitioner-DoctorShark.xml.html"
+  },
+  "Practitioner-DoctorShark.xml.html" : {
+    "title" : "Doctor Shark - XML Representation",
+    "label" : "7.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Doctor Shark</b></li>",
+    "previous" : "Practitioner-DoctorShark.html",
+    "next" : "Practitioner-DoctorShark.json.html"
+  },
+  "Practitioner-DoctorShark.json.html" : {
+    "title" : "Doctor Shark - JSON Representation",
+    "label" : "7.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Doctor Shark</b></li>",
+    "previous" : "Practitioner-DoctorShark.xml.html",
+    "next" : "Practitioner-DoctorShark.ttl.html"
+  },
+  "Practitioner-DoctorShark.ttl.html" : {
+    "title" : "Doctor Shark - TTL Representation",
+    "label" : "7.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Doctor Shark</b></li>",
+    "previous" : "Practitioner-DoctorShark.json.html",
+    "next" : "Practitioner-Nizar.html"
+  },
+  "Practitioner-Nizar.html" : {
+    "title" : "Doctor Nizar",
+    "label" : "7.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Doctor Nizar</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "Practitioner-DoctorShark.ttl.html",
+    "next" : "Practitioner-Nizar.xml.html"
+  },
+  "Practitioner-Nizar.xml.html" : {
+    "title" : "Doctor Nizar - XML Representation",
+    "label" : "7.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Doctor Nizar</b></li>",
+    "previous" : "Practitioner-Nizar.html",
+    "next" : "Practitioner-Nizar.json.html"
+  },
+  "Practitioner-Nizar.json.html" : {
+    "title" : "Doctor Nizar - JSON Representation",
+    "label" : "7.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Doctor Nizar</b></li>",
+    "previous" : "Practitioner-Nizar.xml.html",
+    "next" : "Practitioner-Nizar.ttl.html"
+  },
+  "Practitioner-Nizar.ttl.html" : {
+    "title" : "Doctor Nizar - TTL Representation",
+    "label" : "7.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Doctor Nizar</b></li>",
+    "previous" : "Practitioner-Nizar.json.html",
+    "next" : "Patient-PatientExample.html"
+  },
+  "Patient-PatientExample.html" : {
+    "title" : "James Pond",
+    "label" : "7.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>James Pond</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "Practitioner-Nizar.ttl.html",
+    "next" : "Patient-PatientExample.xml.html"
+  },
+  "Patient-PatientExample.xml.html" : {
+    "title" : "James Pond - XML Representation",
+    "label" : "7.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>James Pond</b></li>",
+    "previous" : "Patient-PatientExample.html",
+    "next" : "Patient-PatientExample.json.html"
+  },
+  "Patient-PatientExample.json.html" : {
+    "title" : "James Pond - JSON Representation",
+    "label" : "7.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>James Pond</b></li>",
+    "previous" : "Patient-PatientExample.xml.html",
+    "next" : "Patient-PatientExample.ttl.html"
+  },
+  "Patient-PatientExample.ttl.html" : {
+    "title" : "James Pond - TTL Representation",
+    "label" : "7.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>James Pond</b></li>",
+    "previous" : "Patient-PatientExample.json.html",
+    "next" : "Patient-PatientExample-2.html"
+  },
+  "Patient-PatientExample-2.html" : {
+    "title" : "Shorty Koi-Fish",
+    "label" : "7.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Shorty Koi-Fish</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "Patient-PatientExample.ttl.html",
+    "next" : "Patient-PatientExample-2.xml.html"
+  },
+  "Patient-PatientExample-2.xml.html" : {
+    "title" : "Shorty Koi-Fish - XML Representation",
+    "label" : "7.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Shorty Koi-Fish</b></li>",
+    "previous" : "Patient-PatientExample-2.html",
+    "next" : "Patient-PatientExample-2.json.html"
+  },
+  "Patient-PatientExample-2.json.html" : {
+    "title" : "Shorty Koi-Fish - JSON Representation",
+    "label" : "7.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Shorty Koi-Fish</b></li>",
+    "previous" : "Patient-PatientExample-2.xml.html",
+    "next" : "Patient-PatientExample-2.ttl.html"
+  },
+  "Patient-PatientExample-2.ttl.html" : {
+    "title" : "Shorty Koi-Fish - TTL Representation",
+    "label" : "7.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Shorty Koi-Fish</b></li>",
+    "previous" : "Patient-PatientExample-2.json.html"
+  }
+}

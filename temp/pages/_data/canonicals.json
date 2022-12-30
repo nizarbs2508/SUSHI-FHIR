@@ -1,0 +1,88 @@
+[
+  {
+    "id" : "no-kodeverk-1101.codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101",
+    "version" : "0.1.0",
+    "name" : "NoKodeverk1101",
+    "oids" : ["2.16.578.1.12.4.1.1.1101"]
+  },
+  {
+    "id" : "no-kodeverk-7010-norpat.codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat",
+    "version" : "0.1.0",
+    "name" : "NoKodeverk7010NORPAT",
+    "oids" : ["2.16.578.1.12.4.1.1.7010"]
+  },
+  {
+    "id" : "nizar.myorganization",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ig/workshop/ImplementationGuide/nizar.myorganization",
+    "version" : "0.1.0",
+    "name" : "WorkshopIG"
+  },
+  {
+    "id" : "no-basis-her-id",
+    "type" : "NamingSystem",
+    "url" : "http://example.org/ig/workshop/NamingSystem/no-basis-her-id",
+    "version" : "0.1.0",
+    "name" : "HERId"
+  },
+  {
+    "id" : "no-basis-resh-id",
+    "type" : "NamingSystem",
+    "url" : "http://example.org/ig/workshop/NamingSystem/no-basis-resh-id",
+    "version" : "0.1.0",
+    "name" : "RESHid"
+  },
+  {
+    "id" : "fish-doctor",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/ig/workshop/StructureDefinition/fish-doctor",
+    "version" : "0.1.0",
+    "name" : "FishDoctor"
+  },
+  {
+    "id" : "fish-species",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/ig/workshop/StructureDefinition/fish-species",
+    "version" : "0.1.0",
+    "name" : "FishSpecies"
+  },
+  {
+    "id" : "my-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/ig/workshop/StructureDefinition/my-patient",
+    "version" : "0.1.0",
+    "name" : "MyPatient"
+  },
+  {
+    "id" : "smarting-pain",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/ig/workshop/StructureDefinition/smarting-pain",
+    "version" : "0.1.0",
+    "name" : "SmartingPain"
+  },
+  {
+    "id" : "veterinarian",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/ig/workshop/StructureDefinition/veterinarian",
+    "version" : "0.1.0",
+    "name" : "Veterinarian"
+  },
+  {
+    "id" : "fish-species",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ig/workshop/ValueSet/fish-species",
+    "version" : "0.1.0",
+    "name" : "FishSpecies"
+  },
+  {
+    "id" : "smarting-pain",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ig/workshop/ValueSet/smarting-pain",
+    "version" : "0.1.0",
+    "name" : "SmartingPain"
+  }
+]

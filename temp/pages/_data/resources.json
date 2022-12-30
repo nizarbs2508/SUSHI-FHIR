@@ -1,0 +1,300 @@
+{
+  "ImplementationGuide/nizar.myorganization" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 0,
+    "source" : "C:\\Users\\bensa\\OneDrive\\Bureau\\Divers\\ASIP\\FHIR\\fsh-tutorial-master\\WorkshopIG-main\\fsh-generated\\resources\\ImplementationGuide-nizar.myorganization.json",
+    "sourceTail" : "ImplementationGuide-nizar.myorganization.json",
+    "path" : "ImplementationGuide-nizar.myorganization.html",
+    "url" : "http://example.org/ig/workshop/ImplementationGuide/nizar.myorganization",
+    "version" : "0.1.0",
+    "name" : "WorkshopIG",
+    "title" : "Workshop IG (R4)",
+    "date" : "2022-12-29T10:55:04+01:00",
+    "description" : "An example IG for the workshop about authoring a FSH IG",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "My Organization",
+      "link" : "http://example.org/",
+      "status" : "Draft"
+    }
+  },
+  "CodeSystem/no-kodeverk-1101.codesystem" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 1,
+    "source" : "fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem.json",
+    "sourceTail" : "CodeSystem-no-kodeverk-1101.codesystem.json",
+    "path" : "CodeSystem-no-kodeverk-1101.codesystem.html",
+    "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101",
+    "identifiers" : "id: urn:oid:2.16.578.1.12.4.1.1.1101",
+    "version" : "0.1.0",
+    "name" : "NoKodeverk1101",
+    "title" : "1101 Ja, nei",
+    "date" : "2020-12-04",
+    "description" : "Dette kodeverket inneholder koder for å angi svar Ja eller Nei.",
+    "status" : {
+      "class" : "colsi",
+      "owner" : "My Organization",
+      "link" : "http://example.org/",
+      "status" : "Active"
+    }
+  },
+  "CodeSystem/no-kodeverk-7010-norpat.codesystem" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 2,
+    "source" : "fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem.json",
+    "sourceTail" : "CodeSystem-no-kodeverk-7010-norpat.codesystem.json",
+    "path" : "CodeSystem-no-kodeverk-7010-norpat.codesystem.html",
+    "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat",
+    "identifiers" : "id: urn:oid:2.16.578.1.12.4.1.1.7010",
+    "version" : "0.1.0",
+    "name" : "NoKodeverk7010NORPAT",
+    "title" : "Norsk patologikodeverk (NORPAT)",
+    "date" : "2022-12-29T10:55:04+01:00",
+    "description" : "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015.",
+    "status" : {
+      "class" : "colsi",
+      "owner" : "My Organization",
+      "link" : "http://example.org/",
+      "status" : "Active"
+    }
+  },
+  "NamingSystem/no-basis-her-id" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 3,
+    "source" : "fsh-generated/resources/NamingSystem-no-basis-her-id.json",
+    "sourceTail" : "NamingSystem-no-basis-her-id.json",
+    "path" : "NamingSystem-no-basis-her-id.html",
+    "url" : "http://example.org/ig/workshop/NamingSystem/no-basis-her-id",
+    "version" : "0.1.0",
+    "name" : "HERId",
+    "date" : "2022-02-10",
+    "description" : "Identifikator for kommunikasjonsparter i Helsenettet..",
+    "jurisdictions" : [
+      {
+        "code" : "NO",
+        "name" : "Norway",
+        "flag" : "nor"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "My Organization",
+      "link" : "http://example.org/",
+      "status" : "Active"
+    }
+  },
+  "NamingSystem/no-basis-resh-id" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 4,
+    "source" : "fsh-generated/resources/NamingSystem-no-basis-resh-id.json",
+    "sourceTail" : "NamingSystem-no-basis-resh-id.json",
+    "path" : "NamingSystem-no-basis-resh-id.html",
+    "url" : "http://example.org/ig/workshop/NamingSystem/no-basis-resh-id",
+    "version" : "0.1.0",
+    "name" : "RESHid",
+    "date" : "2022-02-10",
+    "description" : "Identifikator for enheter i spesialisthelsetjenesten.",
+    "jurisdictions" : [
+      {
+        "code" : "NO",
+        "name" : "Norway",
+        "flag" : "nor"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "My Organization",
+      "link" : "http://example.org/",
+      "status" : "Active"
+    }
+  },
+  "Patient/PatientExample-2" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 5,
+    "source" : "fsh-generated/resources/Patient-PatientExample-2.json",
+    "sourceTail" : "Patient-PatientExample-2.json",
+    "path" : "Patient-PatientExample-2.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Patient/PatientExample" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 6,
+    "source" : "fsh-generated/resources/Patient-PatientExample.json",
+    "sourceTail" : "Patient-PatientExample.json",
+    "path" : "Patient-PatientExample.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Practitioner/DoctorShark" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 7,
+    "source" : "fsh-generated/resources/Practitioner-DoctorShark.json",
+    "sourceTail" : "Practitioner-DoctorShark.json",
+    "path" : "Practitioner-DoctorShark.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Practitioner/Nizar" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 8,
+    "source" : "fsh-generated/resources/Practitioner-Nizar.json",
+    "sourceTail" : "Practitioner-Nizar.json",
+    "path" : "Practitioner-Nizar.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "StructureDefinition/fish-doctor" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 9,
+    "source" : "fsh-generated/resources/StructureDefinition-fish-doctor.json",
+    "sourceTail" : "StructureDefinition-fish-doctor.json",
+    "path" : "StructureDefinition-fish-doctor.html",
+    "url" : "http://example.org/ig/workshop/StructureDefinition/fish-doctor",
+    "version" : "0.1.0",
+    "name" : "FishDoctor",
+    "title" : "Fish Doctor",
+    "date" : "2022-12-29T10:55:04+01:00",
+    "description" : "Profile of the Practitioner resource",
+    "status" : {
+      "class" : "colsi",
+      "owner" : "My Organization",
+      "link" : "http://example.org/",
+      "status" : "Active"
+    }
+  },
+  "StructureDefinition/fish-species" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 10,
+    "source" : "fsh-generated/resources/StructureDefinition-fish-species.json",
+    "sourceTail" : "StructureDefinition-fish-species.json",
+    "path" : "StructureDefinition-fish-species.html",
+    "url" : "http://example.org/ig/workshop/StructureDefinition/fish-species",
+    "version" : "0.1.0",
+    "name" : "FishSpecies",
+    "title" : "Fish Species",
+    "date" : "2022-12-29T10:55:04+01:00",
+    "description" : "Extension to specify the species of the fish",
+    "status" : {
+      "class" : "colsi",
+      "owner" : "My Organization",
+      "link" : "http://example.org/",
+      "status" : "Active"
+    }
+  },
+  "StructureDefinition/my-patient" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 11,
+    "source" : "fsh-generated/resources/StructureDefinition-my-patient.json",
+    "sourceTail" : "StructureDefinition-my-patient.json",
+    "path" : "StructureDefinition-my-patient.html",
+    "url" : "http://example.org/ig/workshop/StructureDefinition/my-patient",
+    "version" : "0.1.0",
+    "name" : "MyPatient",
+    "title" : "My Patient",
+    "date" : "2022-12-29T10:55:04+01:00",
+    "description" : "Profile of the Patient resource",
+    "status" : {
+      "class" : "colsi",
+      "owner" : "My Organization",
+      "link" : "http://example.org/",
+      "status" : "Active"
+    }
+  },
+  "StructureDefinition/smarting-pain" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 12,
+    "source" : "fsh-generated/resources/StructureDefinition-smarting-pain.json",
+    "sourceTail" : "StructureDefinition-smarting-pain.json",
+    "path" : "StructureDefinition-smarting-pain.html",
+    "url" : "http://example.org/ig/workshop/StructureDefinition/smarting-pain",
+    "version" : "0.1.0",
+    "name" : "SmartingPain",
+    "title" : "Smarting pain",
+    "date" : "2022-12-29T10:55:04+01:00",
+    "description" : "Extension to specify the smarting pain",
+    "status" : {
+      "class" : "colsi",
+      "owner" : "My Organization",
+      "link" : "http://example.org/",
+      "status" : "Active"
+    }
+  },
+  "StructureDefinition/veterinarian" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 13,
+    "source" : "fsh-generated/resources/StructureDefinition-veterinarian.json",
+    "sourceTail" : "StructureDefinition-veterinarian.json",
+    "path" : "StructureDefinition-veterinarian.html",
+    "url" : "http://example.org/ig/workshop/StructureDefinition/veterinarian",
+    "version" : "0.1.0",
+    "name" : "Veterinarian",
+    "title" : "Veterinarian",
+    "date" : "2022-12-29T10:55:04+01:00",
+    "description" : "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.",
+    "status" : {
+      "class" : "colsi",
+      "owner" : "My Organization",
+      "link" : "http://example.org/",
+      "status" : "Active"
+    }
+  },
+  "ValueSet/fish-species" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 14,
+    "source" : "fsh-generated/resources/ValueSet-fish-species.json",
+    "sourceTail" : "ValueSet-fish-species.json",
+    "path" : "ValueSet-fish-species.html",
+    "url" : "http://example.org/ig/workshop/ValueSet/fish-species",
+    "version" : "0.1.0",
+    "name" : "FishSpecies",
+    "title" : "Fish Species",
+    "date" : "2022-12-29T10:55:04+01:00",
+    "description" : "Codes describing various species of fish, taken from SNOMED CT",
+    "status" : {
+      "class" : "colsi",
+      "owner" : "My Organization",
+      "link" : "http://example.org/",
+      "status" : "Active"
+    }
+  },
+  "ValueSet/smarting-pain" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 15,
+    "source" : "fsh-generated/resources/ValueSet-smarting-pain.json",
+    "sourceTail" : "ValueSet-smarting-pain.json",
+    "path" : "ValueSet-smarting-pain.html",
+    "url" : "http://example.org/ig/workshop/ValueSet/smarting-pain",
+    "version" : "0.1.0",
+    "name" : "SmartingPain",
+    "title" : "Smarting pain",
+    "date" : "2022-12-29T10:55:04+01:00",
+    "description" : "Codes describing various Smarting pain, taken from SNOMED CT",
+    "status" : {
+      "class" : "colsi",
+      "owner" : "My Organization",
+      "link" : "http://example.org/",
+      "status" : "Active"
+    }
+  }
+}
