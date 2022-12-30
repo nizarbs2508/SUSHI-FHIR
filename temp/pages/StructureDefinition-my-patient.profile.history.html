@@ -1,0 +1,21 @@
+---
+---
+<!-- get modelType -->
+{% include fragment-modelType.html id='my-patient' %}
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='StructureDefinition' id='my-patient' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{modelType}}: MyPatient - Change History</h2>
+{% include fragment-simpletable.html %}
+  <p>Changes in the my-patient {{modelType | downcase}}.</p>
+
+  {%include StructureDefinition-my-patient-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}
